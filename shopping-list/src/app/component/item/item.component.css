@@ -1,0 +1,54 @@
+.row{
+	box-sizing: border-box;
+	display: flex;
+  align-items: center;
+}
+.row:hover{
+  border-radius: 3px;
+  background: #eee;
+}
+div{
+  padding: 5px,0;
+}
+.completed{
+	color: #ddd;
+	text-decoration: line-through;
+}
+
+.title{
+	display: flex;
+  width: 50%;
+	padding: 0 5px;
+}
+.price{
+	width: 15%;
+  padding: 0 5px;
+}
+.quantity{
+	width: 10%;
+  padding: 0 5px;
+}
+.total{
+	width: 10%;
+  font-weight: bolder;
+padding: 0 5px;
+color: rgb(2, 48, 17);
+}
+.actions{
+	width: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.actions button{
+  border: none;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.actions button:hover{
+  background: darkred;
+}
